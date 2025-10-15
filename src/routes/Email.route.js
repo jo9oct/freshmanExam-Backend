@@ -1,6 +1,6 @@
 
 import express from "express";
-import { CreateEmail } from "../Controllers/email.Controller.js";
+import { CreateEmail } from "../Controllers/Email.Controller.js";
 
 const router = express.Router();
 
