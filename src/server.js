@@ -9,7 +9,7 @@ import QuestionRoutes from "./routes/Question.route.js";
 import rateLimiter from "./Middleware/rateLimiter.js";
 import AuthRoutes from "./routes/auth.routes.js";
 import cookieParser from "cookie-parser";
-import EmailRoutes from "./routes/email.route.js"
+import emailRoutes from "./routes/Email.route.js"
 import View from "./routes/View.route.js"
 import StatusData from "./routes/UserStatusData.route.js"
 import GoogleAuthRoutes from "./routes/googleAuth.js"; // Google OAuth
@@ -51,7 +51,7 @@ app.use("/api/course", CourseRoutes);      // Courses CRUD routes
 app.use("/api/chapter", ChapterRoutes);    // Chapters CRUD routes
 app.use("/api/Blog", BlogRoutes);          // Blog CRUD routes
 app.use("/api/Question", QuestionRoutes);  // Questions CRUD routes
-app.use("/api/email", EmailRoutes);        // Email sending routes
+app.use("/api/email", emailRoutes);        // Email sending routes
 app.use("/api/View", View);                // View tracking routes
 app.use("/api/user", StatusData);          // User status/progress routes
 
