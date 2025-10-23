@@ -35,7 +35,7 @@ app.use(passport.initialize());
 
 app.use(
   cors({
-    origin: "https://freshman-exam-frontend.vercel.app/",
+    origin: "https://freshmanexam.onrender.com",
     credentials: true,
   })
 );
