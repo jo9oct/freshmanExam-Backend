@@ -35,7 +35,7 @@ app.use(passport.initialize());
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://freshman-exam-frontend.vercel.app/",
     credentials: true,
   })
 );
